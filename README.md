@@ -73,11 +73,17 @@ Outputs
 The following outputs are saved in the outputs/ folder:
 
 actual_vs_predicted.png: Scatter plot of actual vs predicted values.
+
 bias_and_variance_curve.png: Bar chart showing bias and variance.
+
 correlation_matrix.png: Heatmap of feature correlations.
+
 model_metrics.txt: Evaluation metrics of the model.
+
 predictions.csv: Contains actual and predicted values for the test set.
+
 regression_results.txt: Intercept and coefficients of the trained model.
+
 scatter_plots.png: Feature-wise scatter plots.
 
 Technologies Used
@@ -89,5 +95,6 @@ matplotlib and seaborn for visualization.
 statsmodels and sklearn for regression modeling and evaluation.
 
 Author
-Name: Dilnaz Shanova
-Contact: gebibebi on Github
+Name: Dilnaz Shanova.
+
+Contact: gebibebi on Github 
