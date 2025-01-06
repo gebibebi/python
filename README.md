@@ -43,31 +43,31 @@ The goal of this project is to train a Linear Regression model to predict the ag
 
    pip install -r requirements.txt
 
-****Workflow
+## **Workflow**
 **1. Data Visualization
 Visualize the relationships between the features and the target variable (Rings).
 Generate a correlation matrix to identify strong predictors.
 
-**2. Data Preprocessing
+## **2. Data Preprocessing**
 Convert categorical variable Sex into numerical format.
 Split the dataset into training and testing sets.
-**3. Model Training
+## **3. Model Training**
 Train a Linear Regression model using the training data.
 Present the intercept, coefficients, standard error, t-values, and p-values.
-**4. Predictions
+## **4. Predictions**
 Predict the target variable on test data.
 
 Generate:
 A table of actual vs predicted values (predictions.csv).
 Scatter plot of actual vs predicted (actual_vs_predicted.png).
 Bias and variance curve (bias_and_variance_curve.png).
-**5. Model Evaluation
+## **5. Model Evaluation**
 Evaluate the model using metrics such as:
 Mean Squared Error (MSE).
 Root Mean Squared Error (RMSE).
 Mean Absolute Error (MAE).
 R-squared (R²).
-**6. Analysis
+## **6. Analysis**
 Analyze and comment on the results with visualizations and metrics.
 Outputs
 The following outputs are saved in the outputs/ folder:
@@ -90,4 +90,4 @@ statsmodels and sklearn for regression modeling and evaluation.
 
 Author
 Name: Dilnaz Shanova
-Contact: GitHub
+Contact: gebibebi on Github
