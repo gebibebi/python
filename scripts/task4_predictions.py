@@ -1,4 +1,4 @@
-#table with prediction, 4th task
+#❗ table with prediction, 4th task
 import pandas as pd
 import os
 import statsmodels.api as sm
