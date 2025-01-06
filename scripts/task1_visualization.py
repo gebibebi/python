@@ -7,7 +7,7 @@ def visualize_data(data_path, outputs_dir):
     columns = ['Sex', 'Length', 'Diameter', 'Height', 'Whole Weight', 'Shucked Weight', 'Viscera Weight', 'Shell Weight', 'Rings']
     data = pd.read_csv(data_path, header=None, names=columns)
 
-    data_sample = data.sample(frac=0.1, random_state=42)  # Используем 10% данных
+    data_sample = data.sample(frac=0.1, random_state=42)  
 
     numeric_data = data_sample.drop(columns=['Sex'])
 
@@ -21,7 +21,7 @@ def visualize_data(data_path, outputs_dir):
     plt.close()
 
     print("Step: Creating scatter plots...")
-    sns.pairplot(data_sample, diag_kind='hist', hue='Sex')  # Быстрый вариант графика
+    sns.pairplot(data_sample, diag_kind='hist', hue='Sex')  
     plt.savefig(os.path.join(outputs_dir, 'scatter_plots.png'))
     print("Scatter plots saved.")
     plt.close()
